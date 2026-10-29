@@ -1,5 +1,7 @@
 # pyxpo-video
 
+[![CI](https://github.com/pyxpo/pyxpo-video/actions/workflows/ci.yml/badge.svg)](https://github.com/pyxpo/pyxpo-video/actions/workflows/ci.yml) [![License: MIT](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
+
 A video player for [pyxpo](https://github.com/pyxpo/pyxpo) apps, written in Python. `VideoView` plays a local
 file or an http(s) URL inside your layout, with the platform's own playback controls. It uses AVPlayer on iOS and
 the Mac, `VideoView` on Android, and a `<video>` element on the web page and the desktop window.
