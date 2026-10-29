@@ -1,5 +1,10 @@
 # Changelog
 
+## Unreleased
+
+- Moved to its own repository, github.com/pyxpo/pyxpo-video, with CI on Python 3.9 and 3.12 and releases from tags.
+- Added a security policy, a contributing guide and issue templates.
+
 ## 0.1.0a1
 
 - First release: `VideoView` plays a local file or an http(s) URL with the platform's controls. AVPlayer on iOS and
